@@ -1,0 +1,36 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-01 13:38:03.892450",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "client_image",
+  "alt_text"
+ ],
+ "fields": [
+  {
+   "fieldname": "client_image",
+   "fieldtype": "Attach Image",
+   "label": "Client Image"
+  },
+  {
+   "fieldname": "alt_text",
+   "fieldtype": "Data",
+   "label": "Alt Text"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-08-01 13:38:51.052860",
+ "modified_by": "Administrator",
+ "module": "Vijay Mamra Website",
+ "name": "Our Clients",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

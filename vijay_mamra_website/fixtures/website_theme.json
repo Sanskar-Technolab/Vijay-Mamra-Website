@@ -1,0 +1,28 @@
+[
+ {
+  "background_color": null,
+  "button_gradients": 0,
+  "button_rounded_corners": 1,
+  "button_shadows": 0,
+  "custom": 1,
+  "custom_overrides": "@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');\n\n\n/*sweet alert*/\n.swal-button{\n    background:#77221B!important;\n}\n.swal-button:hover{\n    background:#77221B!important;\n}\n.swal-button:focus{\n    outline:none!important;\n    box-shadow:none;\n}\n.swal-text{\n    text-align:center;\n}",
+  "custom_scss": null,
+  "dark_color": null,
+  "docstatus": 0,
+  "doctype": "Website Theme",
+  "font_properties": "wght@300;400;500;600;700;800",
+  "font_size": null,
+  "google_font": "Roboto Condensed",
+  "ignored_apps": [],
+  "js": "if ($(\"[data-path='login']\").length)\n{\n    $(\".navbar\").css(\"background-color\", \"#7A231C\");\n    $(\".for-login\").css(\"margin-top\",\"100px\")\n}\t",
+  "light_color": null,
+  "modified": "2024-08-09 12:15:48.505964",
+  "module": "Vijay Mamra Website",
+  "name": "Vijay Mamra",
+  "primary_color": null,
+  "text_color": null,
+  "theme": "Vijay Mamra",
+  "theme_scss": "\n@import url(\"https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700;800&display=swap\");\n// backward compatibility. deprecated in v15\n$font-family-sans-serif: \"Roboto Condensed\", \"InterVariable\", \"Inter\", -apple-system, BlinkMacSystemFont,\n\t\"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\",\n\t\"Droid Sans\", \"Helvetica Neue\", sans-serif;\n\n// override font stack if custom font is set in website theme\n:root {\n\t--font-stack: \"Roboto Condensed\", \"InterVariable\", \"Inter\", -apple-system, BlinkMacSystemFont,\n\t\"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\",\n\t\"Droid Sans\", \"Helvetica Neue\", sans-serif !important;\n}\n$enable-shadows: false;\n$enable-gradients: false;\n$enable-rounded: true;\n\n// Bootstrap Variable Overrides\n@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');\n\n\n/*sweet alert*/\n.swal-button{\n    background:#77221B!important;\n}\n.swal-button:hover{\n    background:#77221B!important;\n}\n.swal-button:focus{\n    outline:none!important;\n    box-shadow:none;\n}\n.swal-text{\n    text-align:center;\n}\n\n// Import themes from installed apps\n@import \"frappe/public/scss/website.bundle\";\n@import \"erpnext/public/scss/website\";\n\n\n\n// Custom Theme\n\n\n:root {\n\t}\n",
+  "theme_url": "/files/website_theme/vijay_mamra_f5993c39.css"
+ }
+]

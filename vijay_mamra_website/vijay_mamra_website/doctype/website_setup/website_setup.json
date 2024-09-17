@@ -1,0 +1,100 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-01 13:36:47.838986",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "home_tab",
+  "home_section",
+  "clients",
+  "about_tab",
+  "history",
+  "our_certifications",
+  "clients_tab",
+  "namkeen_manufacturer",
+  "exporter",
+  "retail_store"
+ ],
+ "fields": [
+  {
+   "fieldname": "home_section",
+   "fieldtype": "Section Break",
+   "label": "Home"
+  },
+  {
+   "fieldname": "clients",
+   "fieldtype": "Table",
+   "label": "Clients",
+   "options": "Our Clients"
+  },
+  {
+   "fieldname": "home_tab",
+   "fieldtype": "Tab Break",
+   "label": "Home"
+  },
+  {
+   "fieldname": "about_tab",
+   "fieldtype": "Tab Break",
+   "label": "About"
+  },
+  {
+   "fieldname": "history",
+   "fieldtype": "Table",
+   "label": "History",
+   "options": "History"
+  },
+  {
+   "fieldname": "clients_tab",
+   "fieldtype": "Tab Break",
+   "label": "Clients"
+  },
+  {
+   "fieldname": "namkeen_manufacturer",
+   "fieldtype": "Table",
+   "label": "Namkeen Manufacturer",
+   "options": "Namkeen Manufacturer"
+  },
+  {
+   "fieldname": "exporter",
+   "fieldtype": "Table",
+   "label": "Exporter",
+   "options": "Exporter"
+  },
+  {
+   "fieldname": "retail_store",
+   "fieldtype": "Table",
+   "label": "Retail Store",
+   "options": "Retail Store"
+  },
+  {
+   "fieldname": "our_certifications",
+   "fieldtype": "Table",
+   "label": "Our Certifications",
+   "options": "Certifications"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-08-01 17:20:20.164678",
+ "modified_by": "Administrator",
+ "module": "Vijay Mamra Website",
+ "name": "Website Setup",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
